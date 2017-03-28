@@ -1,0 +1,22 @@
+{
+  "name": "hoardom",
+  "version": "1.0.0",
+  "description": "A hoarding DOM element abstraction that memoizes all the things",
+  "main": "index.js",
+  "repository": "kasperisager/hoardom",
+  "author": "Kasper Isager <kasperisager@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bundstreg": "^0.4.1",
+    "doem": "^0.2.9"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.0",
+    "babelify": "^7.3.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
