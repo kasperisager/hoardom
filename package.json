@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A hoarding DOM element abstraction that memoizes all the things",
   "main": "dist/index.js",
-  "jsnext:main": "lib/index.js",
   "repository": "kasperisager/hoardom",
   "author": "Kasper Isager <kasperisager@gmail.com>",
   "license": "MIT",
@@ -19,24 +18,20 @@
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-preset-env": "^1.2.2",
-    "babelify": "^7.3.0",
     "xo": "^0.18.1"
   },
+  "browserslist": [
+    "chrome >= 53"
+  ],
   "babel": {
     "presets": [
-      [
-        "env",
-        {
-          "targets": {
-            "browsers": [
-              "last 2 versions"
-            ]
-          }
-        }
-      ]
+      "env"
     ]
   },
   "xo": {
-    "space": true
+    "space": true,
+    "envs": [
+      "browser"
+    ]
   }
 }
