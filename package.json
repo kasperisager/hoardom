@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "test": "xo",
-    "prepublish": "babel lib -d dist"
+    "prepare": "babel lib -d dist"
   },
   "dependencies": {
     "bundstreg": "^0.5.0",
